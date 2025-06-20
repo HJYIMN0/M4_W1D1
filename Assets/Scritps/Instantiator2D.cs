@@ -33,7 +33,6 @@ public class Instantiator2D : MonoBehaviour
         Vector3 newPos = _startPosition;
         for (int i = 0; i < _horizontalQ; i++)
         {
-
             for (int j = 0; j < _verticalQ; j++)
             {
                 Instantiate(_quad, newPos * _distance, Quaternion.identity, transform);
